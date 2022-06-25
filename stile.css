@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+  }
+  img{
+    margin-left: 100px;
+  }
+  a{
+    columns: black;
+    text-decoration: none;
+  }
+  h1{
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin: 0;
+    padding: 15px;
+  }
+  h3{
+    font-size: 25px;
+    text-align: center;
+  }
+  ol{
+    border-right: 1px solid black;
+    width: 100px;
+    height: inherit;
+    margin: 0;
+    padding: 20px;
+    padding-top: 40px;
+    padding-left: 24px;
+    padding-right: 30px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #test{
+    padding-left: 10px;
+  }
+  #tow_test{
+    padding-left: 1px;
+  }
+  #tree_test{
+    border-bottom: 1px solid gray;
+
+  }
+  @media(max-width:450px){
+    #grid{
+      display: block;
+    }
+    ol{
+      border-right: none;
+    }
+    h1{
+      font-size: 30px;
+      border-bottom: none;
+    }
+    #tow_test{
+      padding-left: 10px;
+    }
+  }
